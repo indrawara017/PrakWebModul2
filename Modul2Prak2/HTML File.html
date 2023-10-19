@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div class="containeradd">
+      <h2>Add Activity</h2>
+
+      <label for="newActivity">Activity</label><br />
+      <input
+        type="text"
+        id="newActivity"
+        placeholder="Enter Your activity..."
+      />
+      <button onclick="addActivity()">Add</button>
+    </div>
+
+    <div class="containerlist">
+      <h2>List Activities</h2>
+      <ul id="activityList">
+        <button class="edit" onclick="editActivity(this)"></button>
+        <button class="delete" onclick="deleteActivity(this)"></button>
+        <!-- Activities will be added here dynamically -->
+      </ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    background-color: #3498db;
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form#myForm {
+    border: 2px solid white;
+    background-color: White;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form#myForm label,
+form#myForm input {
+    margin-bottom: 5px;
+    font-size: 18px;
+    width: 100%;
+}
+
+form#myForm input[id="name"] {
+    border: 0;
+    background-color: #efefef;
+    height: 40px;
+}
+form#myForm input[id="email"] {
+    border: 0;
+    background-color: #efefef;
+    height: 40px;
+}
+form#myForm input[id="alamat"] {
+    border: 0;
+    background-color: #efefef;
+    height: 100px;
+}
+
+form#myForm input[type="submit"] {
+    border: 2px solid white;
+    color: white;
+    background-color: #3498db;
+    margin-top: 0;
+    width: auto;
+}

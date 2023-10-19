@@ -1,0 +1,96 @@
+.calculator-container {
+    background-color: black;/**/
+    display: flex;/**/
+    flex-direction: column;/**/
+    align-items: center;/**/
+    justify-content: center;/**/
+    height: 100vh;/**/
+    text-align: center;/**/
+}
+
+form[name="kalkulator"] {
+    border: 3px solid white;/**/
+    background-color: #2F3740;/*space cadet*/
+    border-radius: 2%;/**/
+}
+
+input[type="button"] {
+    width: 80px; /* Lebar tombol */
+    height: 80px; /* Tinggi tombol */
+    font-size: 30px; /* Ukuran font */
+    margin: 5px; /* Margin antara tombol */
+    border-radius:
+    15%;/**/
+    font-weight: bold;/**/
+    border: 0 solid 0;/**/
+    transition: background-color 0.8s ease-out;
+}
+
+input[type="text"] {
+    border: transparent;/**/
+    background-color: transparent;/**/
+    color: #F1F1F2;
+    width: 260px;/**/
+    height: 38px;/**/
+    font-size: 35px;/**/
+    margin-top: 15px;
+    margin-right: -20px;
+    font-weight: bold;/**/
+}
+
+#clear, #allClear {
+    background-color: #EB2A46;/*amaranth*/
+    color: #EDEDF0;/*white skoke*/
+    width: 35px;/**/
+    height: 50px;/**/
+    border-radius: 15%;/**/
+    font-size: 20px;/**/
+    margin-left: 20px;/**/
+    margin-right: -22px;/**/
+    font-weight: bold;/**/
+    transition: background-color 0.8s ease-out;
+}
+
+#equals {
+    background-color: #FAD716;/*yellow (NCS)*/
+    color: #EDEDF0;/*white skoke*/
+    width: 174px;/**/
+    height: 80px;/**/
+    font-size: 30px;/**/
+    margin-right: 5px;/**/
+    font-weight: bold;/**/
+    transition: background-color 0.8s ease-out;/**/
+}
+
+.operator {
+    background-color: #438CF3;/*blue de france*/
+    color: #EDEDF0;/*white skoke*/
+    font-weight: bold;/**/
+}
+
+.number {
+    background-color: #EDEDF0;/*white skoke*/
+    color: #778DB8;/*dark pastel blue*/
+
+}
+
+input[type="button"]:hover {
+    background-color: #2F3740;/*space cadet*/
+    cursor: pointer;/**/
+}
+
+#equals:hover {
+    background-color: #2F3740;/*space cadet*/
+    cursor: pointer;/**/
+}
+
+#doubleZero:hover {
+    background-color: #2F3740;/*space cadet*/
+    cursor: pointer;/**/
+}
+
+#clear:hover,
+#allClear:hover {
+    background-color: #2F3740;/*space cadet*/
+    cursor: pointer;/**/
+}

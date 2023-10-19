@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 100px;
+    padding: 10px;
+
+}
+
+/* Common styles for containers */
+.containeradd,
+.containerlist {
+    background-color: #f2f2f2;
+    padding: 5px;
+    text-align: left;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+/* Style text inputs */
+input[type="text"] {
+    width: 79%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Style buttons */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Styles for Edit and Delete buttons */
+.edit,
+.delete {
+    display: none;
+}
+
+#activityList li .delete,
+#activityList li .edit {
+    display: inline-block;
+    padding: 2px;
+    border: none;
+    margin-left: 5px;
+}
+
+#activityList li .delete {
+    background-color: red;
+    float: right;
+}
+
+#activityList li .edit {
+    background-color: green;
+    float: right;
+}
+
+/* Styles for the list of activities */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Style the 'Activity' heading */
+h2 {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
